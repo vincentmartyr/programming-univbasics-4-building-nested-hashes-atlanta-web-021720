@@ -1,9 +1,7 @@
 def base_hash
-  boardgames = {
-		:monopoly => {
-			:railroads => {
-				
-			}
+  monopoly = {
+		:railroads => {
+
 		}
 
 	}# Remember implicit return! We're returning this new Hash _without_ the
