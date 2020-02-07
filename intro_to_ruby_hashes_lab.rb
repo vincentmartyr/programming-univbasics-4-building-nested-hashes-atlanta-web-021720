@@ -27,7 +27,7 @@ def monopoly_with_third_tier
 		:railroads => {
 		:names => {"New York" => {}, "Atlanta" => {}, "California" => {}, "Puerto Rico" => {}},
 		:rent_in_dollars => {
-			:one_piece_owned => 25, :two_pieces_owned => , :minority_owner_two => {}, :minority_owner_three => {}
+			:one_piece_owned => 25, :two_pieces_owned => {} , :minority_owner_two => {}, :minority_owner_three => {}
 		},
     :pieces => 4
 	}
