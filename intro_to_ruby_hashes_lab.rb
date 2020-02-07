@@ -25,11 +25,12 @@ end
 def monopoly_with_third_tier
 	monopoly = {
 		:railroads => {
-		:names => {name:
+		:names => {name:{
 		"New York",
 		"Atlanta",
 		"California",
-		"Puerto Rico"},
+		"Puerto Rico"}
+	},
 		:rent_in_dollars => {
 			:majority_owner =>{}, :minority_owner_one => {}, :minority_owner_two => {}, :minority_owner_three => {}
 		},
